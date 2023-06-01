@@ -7,6 +7,7 @@ const Exercicio3 = () => {
     const numerosPares = numeros.filter((item) => item % 2 === 0)
   return (
     <div>
+        <h2>Exercicio 03</h2>
         {numerosPares.map((number, index) => (
             <li key={index}>É par: {`${number} `}</li>
         ))}
