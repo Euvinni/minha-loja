@@ -1,11 +1,12 @@
-import HomeExercicios from "./Exerc/HomeExercicios";
+import HomeExerciciosUseState from "./Exerc2/HomeExerciciosUseState";
+
 
 
 
 function App() {
   return (
     <div>
-      <HomeExercicios />  
+      <HomeExerciciosUseState />
     </div>
   );
 }
